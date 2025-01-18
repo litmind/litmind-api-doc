@@ -1,8 +1,8 @@
-# Status / notifications
+# Pending events
 
-<mark style="color:red;">**GET**</mark> `/account/status/notifications`
+<mark style="color:red;">**GET**</mark> `/account/events/pending`
 
-Obtain a list of pending notifications in your account. For example: The number of models that have requested accessing your castings but you haven't yet approved or declined.
+Obtain the number of events in your account that require your attention. For example: The number of models that have requested accessing your castings but you haven't yet approved or declined.
 
 **Example**
 

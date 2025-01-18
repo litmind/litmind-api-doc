@@ -14,4 +14,8 @@
 
 ## Account
 
-* [Status / notifications](account/status-notifications.md)
+* [Pending events](account/pending-events.md)
+
+## Noticeboard
+
+* [Page 1](noticeboard/page-1.md)
