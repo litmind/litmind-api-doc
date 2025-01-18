@@ -1,29 +1,39 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+description: >-
+  Integrate castings, collaborations, model search and other Litmind tools into
+  your business.
 ---
 
-# Welcome
+# Litmind API documentation
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+This documentation provides a guide and the details needed to integrate Litmind into your company processes using a programmatic API.
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+{% hint style="info" %}
+This is a technical document, and should be handed over to your software development specialist.
+{% endhint %}
 
-### Jump right in
+## Before you start
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+{% stepper %}
+{% step %}
+### API Key
+
+You'll need a secret API key, reach to your Litmind contact if you don't have one.
+{% endstep %}
+
+{% step %}
+### Litmind account
+
+The API can only be accessed by companies with an active profile at Litmind. If you don't have one yet, create one by [signing up at Litmind](https://litmind.com/signup).
+{% endstep %}
+
+{% step %}
+### Membership
+
+The API is only available to companies with a paid Pro membership at Litmind. If you don't have one yet, [get it here](https://litmind.com/membership).
+{% endstep %}
+{% endstepper %}
+
+
+
