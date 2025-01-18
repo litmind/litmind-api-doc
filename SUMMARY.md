@@ -8,15 +8,14 @@
 
 ## Session
 
-* [Login](session/login.md)
-* [Logout](session/logout.md)
-* [List](session/list.md)
+* [Session](session/session/README.md)
+  * [Login](session/session/login.md)
+  * [Logout](session/session/logout.md)
+  * [List](session/session/list.md)
 
 ## Account
 
-* [Pending events](account/pending-events.md)
-* [Page 1](account/page-1.md)
-
-## Account / Noticeboard
-
-* [Browse](account-noticeboard/browse.md)
+* [Events](account/events/README.md)
+  * [Pending events](account/events/pending-events.md)
+* [Noticeboard](account/noticeboard/README.md)
+  * [List](account/noticeboard/list.md)

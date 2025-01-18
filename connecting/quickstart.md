@@ -35,7 +35,7 @@ Most endpoints will additionally require you to provide a **session id** and a *
 * <mark style="color:yellow;">**X-SessionId**</mark> The session id
 * <mark style="color:yellow;">**X-UserId**</mark> The user id
 
-To obtain your **X-SessionId** and **X-UserId,** call the [/session/login](../session/login.md) endpoint, which accepts your Litmind's account credentials, and answers back with this value&#x73;**.**
+To obtain your **X-SessionId** and **X-UserId,** call the [/session/login](../session/session/login.md) endpoint, which accepts your Litmind's account credentials, and answers back with this value&#x73;**.**
 
 Here's an example of a request to an endpoint that requires a logged account:
 
