@@ -1,8 +1,12 @@
-# Pending events
+# Browse
 
 <mark style="color:red;">**GET**</mark> `/account/events/pending`
 
 Obtain the number of events in your account that require your attention. For example: The number of models that have requested accessing your castings but you haven't yet approved or declined.
+
+{% hint style="info" %}
+Noticeboard items can be castings, collaborations and other publications
+{% endhint %}
 
 #### Headers
 

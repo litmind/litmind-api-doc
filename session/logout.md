@@ -4,20 +4,25 @@
 
 Log out from your Litmind account.
 
-**Body**
+#### Headers
 
-<table><thead><tr><th>Name</th><th width="100">Type</th><th>Description</th></tr></thead><tbody><tr><td>userId</td><td>integer</td><td>The user id to be logged out.</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>true</td><td>Your session id</td><td></td></tr></tbody></table>
 
-**Example**
+#### Body
+
+<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>userId</strong></mark></td><td>true</td><td>The user id to be logged out</td></tr></tbody></table>
+
+#### Example
 
 ```bash
 curl \
     -X POST https://litmind.com/api/v1/session/logout \
     -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ' \
+    -H 'X-SessionId: 313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588' \
     -d 'userId=138829'
 ```
 
-**Response**
+#### Response
 
 ```json
 {

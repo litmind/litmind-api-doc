@@ -4,11 +4,15 @@
 
 Log in to your Litmind account. This is needed for all endpoints that perform actions related to your account at Litmind (for example: retrieving a list of candidate models in your castings)
 
-**Body**
+#### Headers
 
-<table><thead><tr><th>Name</th><th width="100">Type</th><th>Description</th></tr></thead><tbody><tr><td>emailOrUsername</td><td>string</td><td>The username or the email of your Litmind account</td></tr><tr><td>password</td><td>string</td><td>The password of your Litmind account</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr></tbody></table>
 
-**Example**
+#### Body
+
+<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>emailOrUsername</strong></mark></td><td>true</td><td>The username or the email of your Litmind account</td></tr><tr><td><mark style="color:yellow;"><strong>password</strong></mark></td><td>true</td><td>The password of your Litmind account</td></tr></tbody></table>
+
+#### Example
 
 ```bash
 curl \
@@ -17,7 +21,7 @@ curl \
     -d 'emailOrUsername=imagine-production&password=Dq4juHcnJBw8'
 ```
 
-**Response**
+#### Response
 
 ```json
 {
@@ -39,6 +43,6 @@ curl \
 
 * <mark style="color:green;">**isSuccess**</mark> Whether the login was performed successfully.
 * <mark style="color:green;">**errorDescription**</mark> If there was an error while logging in, a description.
-* <mark style="color:green;">**sessionId**</mark> Your session id, to be passed from now on as the value for the **X-SessionId** header when [making requests that require it](../connecting/quickstart.md).
-* <mark style="color:green;">**profile.id**</mark> Your user id, to be passed from now on as the value for the **X-UserId** header when [making requests that require it](../connecting/quickstart.md).
+* <mark style="color:green;">**sessionId**</mark> Your session id, to be passed from now on as the value for the <mark style="color:yellow;">**X-SessionId**</mark> header when [making requests that require it](../connecting/quickstart.md).
+* <mark style="color:green;">**profile.id**</mark> Your user id, to be passed from now on as the value for the <mark style="color:yellow;">**X-UserId**</mark> header when [making requests that require it](../connecting/quickstart.md).
 

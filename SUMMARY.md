@@ -15,7 +15,8 @@
 ## Account
 
 * [Pending events](account/pending-events.md)
+* [Page 1](account/page-1.md)
 
-## Noticeboard
+## Account / Noticeboard
 
-* [Page 1](noticeboard/page-1.md)
+* [Browse](account-noticeboard/browse.md)

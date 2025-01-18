@@ -30,7 +30,7 @@ The API will respond with a standard HTTP code indicating the status of the requ
 
 ## Requesting user endpoints
 
-Most endpoints will additionally require you to provide a **session id** and a **user id** by providing the following additional headers:
+Most endpoints will additionally require you to provide a **session id** and a **user id** by sending the following additional headers along:
 
 * <mark style="color:yellow;">**X-SessionId**</mark> The session id
 * <mark style="color:yellow;">**X-UserId**</mark> The user id
