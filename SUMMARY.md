@@ -9,3 +9,9 @@
 ## Session
 
 * [Login](session/login.md)
+* [Logout](session/logout.md)
+* [List](session/list.md)
+
+## Account
+
+* [Status / notifications](account/status-notifications.md)

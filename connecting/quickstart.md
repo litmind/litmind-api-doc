@@ -42,7 +42,7 @@ Here's an example of a request to an endpoint that requires a logged account:
 ```bash
 curl \
     -G https://litmind.com/api/v1/account/status/notifications \
-    -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ'
+    -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ' \
     -H 'X-SessionId: 313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588'
     -H 'X-UserId: 138829'
 ```

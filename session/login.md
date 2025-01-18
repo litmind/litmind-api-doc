@@ -2,7 +2,7 @@
 
 <mark style="color:red;">**POST**</mark> `/session/login`
 
-Login into your Litmind account. This is needed for all endpoints that perform actions related to your account at Litmind (for example: retrieving a list of candidate models in your castings)
+Log in to your Litmind account. This is needed for all endpoints that perform actions related to your account at Litmind (for example: retrieving a list of candidate models in your castings)
 
 **Body**
 
@@ -13,7 +13,7 @@ Login into your Litmind account. This is needed for all endpoints that perform a
 ```bash
 curl \
     -X POST https://litmind.com/api/v1/session/login \
-    -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ'
+    -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ' \
     -d 'emailOrUsername=imagine-production&password=Dq4juHcnJBw8'
 ```
 
