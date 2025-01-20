@@ -6,7 +6,7 @@ Obtain the number of events in your account that require your attention. For exa
 
 #### Headers
 
-<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>true</td><td>Your session id</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-UserId</strong></mark></td><td>true</td><td>The logged user id to get pending events from</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="181">Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>true</td><td>Your session id</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-UserId</strong></mark></td><td>true</td><td>The logged user id to get pending events from</td><td></td></tr></tbody></table>
 
 #### Example
 

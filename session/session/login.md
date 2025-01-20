@@ -6,11 +6,11 @@ Log in to your Litmind account. This is needed for all endpoints that perform ac
 
 #### Headers
 
-<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>false</td><td>Your session id. If not specified, a new session will be created</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="191">Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>false</td><td>Your session id. If not specified, a new session will be created</td><td></td></tr></tbody></table>
 
 #### Body
 
-<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>emailOrUsername</strong></mark></td><td>true</td><td>The username or the email of your Litmind account</td></tr><tr><td><mark style="color:yellow;"><strong>password</strong></mark></td><td>true</td><td>The password of your Litmind account</td></tr></tbody></table>
+<table><thead><tr><th width="228">Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>emailOrUsername</strong></mark></td><td>true</td><td>The username or the email of your Litmind account</td></tr><tr><td><mark style="color:yellow;"><strong>password</strong></mark></td><td>true</td><td>The password of your Litmind account</td></tr></tbody></table>
 
 #### Example
 
