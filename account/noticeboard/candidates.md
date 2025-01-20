@@ -1,8 +1,8 @@
-# List
+# Candidates
 
-<mark style="color:red;">**GET**</mark> `/account/noticeboard/list`
+<mark style="color:red;">**GET**</mark> `/account/noticeboard/candidates`
 
-Obtain information about the castings, collaborations or other kinds of noticeboard postings that are currently running in an account.
+Obtain a list of candidates in a casting, collaboration or another kind of noticeboard posting.
 
 #### Headers
 
@@ -10,7 +10,7 @@ Obtain information about the castings, collaborations or other kinds of noticebo
 
 #### Body
 
-<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>postingType</strong></mark></td><td>true</td><td>One of the following types of noticeboard postings to retrieve: <code>casting</code> <code>collaboration</code></td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>postingType</strong></mark></td><td>true</td><td>One of the following types of noticeboard postings to retrieve: <code>casting</code> <code>collaboration</code> <code>travelnotice</code> <code>others</code></td></tr></tbody></table>
 
 #### Example
 

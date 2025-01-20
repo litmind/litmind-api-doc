@@ -18,4 +18,5 @@
 * [Events](account/events/README.md)
   * [Pending events](account/events/pending-events.md)
 * [Noticeboard](account/noticeboard/README.md)
-  * [List](account/noticeboard/list.md)
+  * [Postings](account/noticeboard/postings.md)
+  * [Candidates](account/noticeboard/candidates.md)
