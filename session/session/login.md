@@ -10,7 +10,7 @@ Log in to your Litmind account. This is needed for all endpoints that perform ac
 
 #### Body
 
-<table><thead><tr><th width="228">Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>emailOrUsername</strong></mark></td><td>true</td><td>The username or the email of your Litmind account</td></tr><tr><td><mark style="color:yellow;"><strong>password</strong></mark></td><td>true</td><td>The password of your Litmind account</td></tr></tbody></table>
+<table><thead><tr><th width="228">Name</th><th>Description</th><th width="100" data-type="checkbox">Required</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>emailOrUsername</strong></mark></td><td>The username or the email of your Litmind account</td><td>true</td></tr><tr><td><mark style="color:yellow;"><strong>password</strong></mark></td><td>The password of your Litmind account</td><td>true</td></tr></tbody></table>
 
 #### Example
 
@@ -30,13 +30,22 @@ curl \
     "sessionId": "313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588",
     "profile": {
         "id": 138829,
-        "profileImage": {
-            "urls": {
-                "thumbnail": "https://cdn.litmind.com/mvqP0JaEkjbdEAA0sTPHwY9vAjsNDSAd.UserLogoSingleImage.193978.profile_non_retina.jpg",
-            }
-        },
+        "profileImageUrl": "https://cdn.litmind.com/mvqP0JaEkjbdEAA0sTPHwY9vAjsNDSAd.UserLogoSingleImage.193978.profile_non_retina.jpg",
         "username": "imagine-production",
-        "typeTitle": "Production company"
+        "typeTitle": "Production company",
+        "isVerified": false,
+        "isNew": false,
+        "isRepresented": false,
+        "isStaffPick": false,
+        "profileUrl": "https://litmind.com/imagine-production",
+        "reviewsUrl": "https://litmind.com/imagine-production/reviews",
+        "views": 21531,
+        "clicks": 2803,
+        "followers": 67,
+        "reviews": 0,
+        "stars": 0,
+        "slides": 0,
+        "publicLightboxes": 0
     }
 }
 ```

@@ -2,7 +2,7 @@
 
 <mark style="color:red;">**GET**</mark> `/account/noticeboard/postings`
 
-Obtain a list of castings, collaborations or other kinds of noticeboard postings that are currently running in an account.
+Obtain a list of castings, collaborations or other kinds of noticeboard postings that are currently running in one of your accounts.
 
 {% hint style="info" %}
 On Litmind, castings, collaborations and other similar kinds of postings are considered all noticeboard postings.&#x20;
@@ -10,11 +10,11 @@ On Litmind, castings, collaborations and other similar kinds of postings are con
 
 #### Headers
 
-<table><thead><tr><th width="172">Name</th><th width="100" data-type="checkbox">Required</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>true</td><td>Your API Key</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>true</td><td>Your session id</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-UserId</strong></mark></td><td>true</td><td>The logged user id to list noticeboard items from</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="172">Name</th><th>Value</th><th width="100" data-type="checkbox">Required</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>Your API Key</td><td>true</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>Your session id</td><td>true</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-UserId</strong></mark></td><td>The logged user id to list noticeboard items from</td><td>true</td><td></td></tr></tbody></table>
 
 #### Body
 
-<table><thead><tr><th width="169">Name</th><th width="100" data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>postingType</strong></mark></td><td>true</td><td><p>One of the following types of noticeboard postings to retrieve:</p><p><strong><code>casting</code></strong> <strong><code>collaboration</code></strong> <strong><code>travelNotice</code></strong> <strong><code>others</code></strong></p></td></tr><tr><td><mark style="color:yellow;"><strong>status</strong></mark></td><td>false</td><td><p>Obtain a list of open or closed noticeboard postings. If not specified, the list will include all. One of the following values:</p><p><strong><code>open</code></strong> <strong><code>closed</code></strong></p></td></tr></tbody></table>
+<table><thead><tr><th width="169">Name</th><th>Description</th><th width="100" data-type="checkbox">Required</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>postingType</strong></mark></td><td><p>One of the following types of noticeboard postings to retrieve:</p><p><strong><code>casting</code></strong> <strong><code>collaboration</code></strong> <strong><code>travelNotice</code></strong> <strong><code>others</code></strong></p></td><td>true</td></tr><tr><td><mark style="color:yellow;"><strong>status</strong></mark></td><td><p>Obtain a list of open or closed noticeboard postings. If not specified, the list will include all. One of the following values:</p><p><strong><code>open</code></strong> <strong><code>closed</code></strong></p></td><td>false</td></tr></tbody></table>
 
 #### Example
 
