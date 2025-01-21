@@ -23,6 +23,13 @@ Clothing sizes are specified in European standard. These are the accepted values
 * For women: **`34`** **`36`** **`38`** **`40`** **`42`** **`44`** **`46`** **`48`** **`50`** **`52`** **`54`** **`56`**
 {% endhint %}
 
+{% hint style="info" %}
+Shoe sizes are specified in European standard. These are the accepted values:
+
+* For men, from **`38`** to **`48`**
+* For women, from **`35`** to **`46`**
+{% endhint %}
+
 #### Example
 
 ```bash
