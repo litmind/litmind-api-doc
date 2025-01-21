@@ -53,7 +53,17 @@ curl \
             "isManager": true,
             "candidatesAccepted": 4,
             "candidatesPending": 22,
-            "views": 180
+            "views": 180,
+            "folders": [
+                {
+                    "id": 4039,
+                    "name": "Liked by the client"
+                },
+                {
+                    "id": 4040,
+                    "name": "Pending signing"
+                }
+            ]
         }
     ]
 }

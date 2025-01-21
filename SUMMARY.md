@@ -20,3 +20,8 @@
 * [Noticeboard](account/noticeboard/README.md)
   * [Postings](account/noticeboard/postings.md)
   * [Candidates](account/noticeboard/candidates.md)
+
+## Browse
+
+* [Profiles](browse/profiles/README.md)
+  * [Browse](browse/profiles/browse.md)
