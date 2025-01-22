@@ -22,7 +22,7 @@ A lightbox on Litmind.
     "id": 88389,
     "isPrivate": true,
     "name": "Favourite models",
-    "url": "https://litmind.es.buzz/lightbox/favourite-models",
+    "url": "https://litmind.com/lightbox/favourite-models",
     "views": 0,
     "items": 82
 }
