@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Candidates
 
 <mark style="color:red;">**GET**</mark> `/account/noticeboard/`<mark style="color:yellow;">**`{noticeboardPostingId}`**</mark>`/candidates`
