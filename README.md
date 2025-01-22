@@ -1,5 +1,5 @@
 ---
-icon: hand-wave
+icon: webhook
 description: >-
   Integrate castings, collaborations, model search and other Litmind tools into
   your business.
@@ -34,6 +34,4 @@ The API can only be accessed by companies with an active profile at Litmind. If 
 The API is only available to companies with a paid Pro membership at Litmind. If you don't have one yet, [get it here](https://litmind.com/membership).
 {% endstep %}
 {% endstepper %}
-
-
 
