@@ -45,9 +45,17 @@ curl \
 
 ```json
 {
-    "count": 1,
+    "entity": "Candidates",
+    "paging": {
+        "page": 1,
+        "entitiesPerPage": 10,
+        "totalPages": 1,
+        "totalEntities": 1,
+        "entitiesThisPage": 1
+    },
     "candidates": [
         {
+            "entity": "Candidate",
             "id": 8492881,
             "joined": "2025-01-20T08:56:48+00:00",
             "accepted": "2025-01-20T17:03:37+00:00",
@@ -81,7 +89,8 @@ curl \
                 "publicLightboxes": 0,
                 "polaroids": 0,
                 "isRecentPolaroids": false,
-                "isSedCard": false
+                "isSedCard": false,
+                "note": ""
             }
         }
     ]

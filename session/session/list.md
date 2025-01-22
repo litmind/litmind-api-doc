@@ -25,15 +25,14 @@ curl \
 
 ```json
 {
-    "count": 1,
+    "entity": "SessionUsers",
     "sessionUsers": [
         {
+            "entity": "SessionUser",
             "userId": 193978,
             "isCurrent": true
         }
     ]
 }
 ```
-
-
 

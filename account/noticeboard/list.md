@@ -1,6 +1,6 @@
-# Postings
+# List
 
-<mark style="color:red;">**GET**</mark> `/account/noticeboard/postings`
+<mark style="color:red;">**GET**</mark> `/account/noticeboard/list`
 
 Obtain a list of castings, collaborations or other kinds of noticeboard postings that are currently running in one of your accounts.
 
@@ -20,7 +20,7 @@ On Litmind, castings, collaborations and other similar kinds of postings are con
 
 ```bash
 curl \
-    -G https://litmind.com/api/v1/account/noticeboard/postings \
+    -G https://litmind.com/api/v1/account/noticeboard/list \
     -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ' \
     -H 'X-SessionId: 313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588' \
     -H 'X-UserId: 138829'
@@ -31,9 +31,10 @@ curl \
 
 ```json
 {
-    "count": 1,
+    "entity": "NoticeboardPostings",
     "noticeboardPostings": [
         {
+            "entity": "NoticeboardPosting",
             "id": 38922,
             "title": "Models wanted for a magazine editorial",
             "section": "Castings",

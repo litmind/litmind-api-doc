@@ -25,10 +25,12 @@ curl \
 
 ```json
 {
+    "entity": "Login",
     "isSuccess": true,
     "errorDescription": null,
     "sessionId": "313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588",
     "profile": {
+        "entity": "Profile",
         "id": 138829,
         "profileImageUrl": "https://cdn.litmind.com/mvqP0JaEkjbdEAA0sTPHwY9vAjsNDSAd.UserLogoSingleImage.193978.profile_non_retina.jpg",
         "username": "imagine-production",
@@ -45,7 +47,8 @@ curl \
         "reviews": 0,
         "stars": 0,
         "slides": 0,
-        "publicLightboxes": 0
+        "publicLightboxes": 0,
+        "note": ""
     }
 }
 ```

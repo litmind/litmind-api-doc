@@ -15,13 +15,19 @@
 
 ## Account
 
+* [Noticeboard](account/noticeboard/README.md)
+  * [List](account/noticeboard/list.md)
+  * [Candidates](account/noticeboard/candidates.md)
+* [Lightboxes](account/lightboxes/README.md)
+  * [List](account/lightboxes/list.md)
 * [Events](account/events/README.md)
   * [Pending events](account/events/pending-events.md)
-* [Noticeboard](account/noticeboard/README.md)
-  * [Postings](account/noticeboard/postings.md)
-  * [Candidates](account/noticeboard/candidates.md)
 
 ## Browse
 
 * [Profiles](browse/profiles/README.md)
   * [Browse](browse/profiles/browse.md)
+
+## Entities
+
+* [Profile](entities/profile.md)

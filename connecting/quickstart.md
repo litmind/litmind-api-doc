@@ -20,6 +20,7 @@ The API will respond with a standard HTTP code indicating the status of the requ
 
 ```json
 {
+    "entity": "Version",
     "availableVersions": [
         "1"
     ],
