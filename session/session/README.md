@@ -15,7 +15,7 @@ layout:
 
 # Session
 
-Endpoints to log in and out from a Litmind account.
+Most endpoints require you to first login using your Litmind account. You can do this using the endpoints documented on this section.
 
 {% hint style="info" %}
 Normally, you'll only be able to log in with your own Litmind account.
