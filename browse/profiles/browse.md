@@ -10,7 +10,7 @@ Obtain a list of profiles of any type, including models and photographers.
 
 #### Body
 
-<table><thead><tr><th width="174">Name</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>type</strong></mark></td><td><p>List only profiles of this type. One of the following values:</p><p><strong><code>accepted</code></strong> <strong><code>pending</code></strong></p></td></tr></tbody></table>
+<table><thead><tr><th width="174">Name</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>type</strong></mark></td><td><p>List only profiles of this type. One of the following values:</p><p><strong><code>photographers</code></strong> <strong><code>videographers</code></strong> <strong><code>retouchers</code></strong> <strong><code>models</code></strong> <strong><code>makeup</code></strong> <strong><code>hair</code></strong> <strong><code>stylist</code></strong> <strong><code>fashiondesigners</code></strong></p></td></tr></tbody></table>
 
 When searching for models, the following additional parameters can be specified:
 
@@ -47,12 +47,11 @@ curl \
 
 #### Response
 
-```json
-{
-    "entity": "Profiles",
+<pre class="language-json" data-full-width="false"><code class="lang-json"><strong>{
+</strong>    "entity": "Profiles",
     "paging": {
-        "page": 1,
-        "entitiesPerPage": 10,
+<strong>        "page": 1,
+</strong>        "entitiesPerPage": 10,
         "totalPages": 1485,
         "totalEntities": 14842,
         "entitiesThisPage": 10
@@ -67,37 +66,9 @@ curl \
                 "id": 4039,
                 "name": "Liked by the client"
             },
-            "profile": {
-                "id": 48129,
-                "profileImageUrl": "https://cdn.litmind.com/bix2ePMqWHWh4F8cnEie0S2Jqw7uiGpE.PhotoSingleImage.3465915.profile.jpg",
-                "username": "frank-abagnale",
-                "typeTitle": "Model",
-                "isVerified": false,
-                "isNew": false,
-                "isRepresented": false,
-                "isStaffPick": false,
-                "isBanned": false,
-                "profileUrl": "https://litmind.com/frankabagnale",
-                "reviewsUrl": "https://litmind.com/frankabagnale/reviews",
-                "sedCardUrl": "https://litmind.com/frankabagnale/composite",
-                "polaroidsUrl": "https://litmind.com/frankabagnale/polaroids",
-                "views": 21531,
-                "clicks": 2803,
-                "followers": 67,
-                "reviews": 0,
-                "stars": 0,
-                "artworks": 6,
-                "artworkViews": 49,
-                "artworkClicks": 7,
-                "slides": 0,
-                "publicLightboxes": 0,
-                "polaroids": 0,
-                "isRecentPolaroids": false,
-                "isSedCard": false,
-                "note": ""
-            }
+            "profile": &#x3C;Profile entity>
         }
     ]
 }
-```
+</code></pre>
 

@@ -16,7 +16,7 @@
 ## Account
 
 * [Noticeboard](account/noticeboard/README.md)
-  * [List](account/noticeboard/list.md)
+  * [List](account/noticeboard/postings.md)
   * [Candidates](account/noticeboard/candidates.md)
 * [Lightboxes](account/lightboxes/README.md)
   * [List](account/lightboxes/list.md)
@@ -28,6 +28,8 @@
 * [Profiles](browse/profiles/README.md)
   * [Browse](browse/profiles/browse.md)
 
-## Entities
+## Common entities
 
-* [Profile](entities/profile.md)
+* [Profile](common-entities/profile.md)
+* [Noticeboard posting](common-entities/noticeboard-posting.md)
+* [Lightbox](common-entities/lightbox.md)

@@ -24,33 +24,7 @@ curl \
 {
     "entity": "Lightboxes",
     "lightboxes": [
-        {
-            "entity": "Lightbox",
-            "id": 88389,
-            "isPrivate": true,
-            "name": "Favourite models",
-            "url": "https://litmind.es.buzz/lightbox/favourite-models",
-            "views": 0,
-            "items": 82
-        },
-        {
-            "entity": "Lightbox",
-            "id": 88233,
-            "isPrivate": false,
-            "name": "Blade Runner vibes",
-            "url": "https://litmind.es.buzz/lightbox/blade-runner-vibes",
-            "views": 1203,
-            "items": 7
-        },
-        {
-            "entity": "Lightbox",
-            "id": 28398,
-            "isPrivate": false,
-            "name": "Mindblowing inspiration",
-            "url": "https://litmind.es.buzz/lightbox/mindblowing-inspiration",
-            "views": 8392,
-            "items": 50
-        }
+        <Lightbox entities>
     ]
 }
 ```

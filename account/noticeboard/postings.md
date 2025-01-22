@@ -33,39 +33,7 @@ curl \
 {
     "entity": "NoticeboardPostings",
     "noticeboardPostings": [
-        {
-            "entity": "NoticeboardPosting",
-            "id": 38922,
-            "title": "Models wanted for a magazine editorial",
-            "section": "Castings",
-            "type": "Photo shoots",
-            "created": "2025-01-19T08:19:27+00:00",
-            "published": "2025-01-19T08:28:43+00:00",
-            "end": "2025-02-03T00:59:59+00:00",
-            "lifespanDays": 14,
-            "isPaid": true,
-            "isRequiredExperience": false,
-            "isCommercialUsage": 0,
-            "isTfp": false,
-            "url": "https://litmind.es.buzz/tablon/casting/models-wanted-for-a-magazine-editorial",
-            "urlManager": "https://litmind.es.buzz/group/models-wanted-for-a-magazine-editorial",
-            "urlEdit": "https://litmind.es.buzz/?a=50&aa=60&noticeboard_ad_id=38922",
-            "urlStatistics": "https://litmind.es.buzz/account/stats/custom/casting/38922/20250119/20250203",
-            "isManager": true,
-            "candidatesAccepted": 4,
-            "candidatesPending": 22,
-            "views": 180,
-            "folders": [
-                {
-                    "id": 4039,
-                    "name": "Liked by the client"
-                },
-                {
-                    "id": 4040,
-                    "name": "Pending signing"
-                }
-            ]
-        }
+        // Noticeboard posting entities
     ]
 }
 ```

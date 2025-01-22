@@ -63,37 +63,10 @@ curl \
                 "id": 4039,
                 "name": "Liked by the client"
             },
-            "profile": {
-                "id": 48129,
-                "profileImageUrl": "https://cdn.litmind.com/bix2ePMqWHWh4F8cnEie0S2Jqw7uiGpE.PhotoSingleImage.3465915.profile.jpg",
-                "username": "frank-abagnale",
-                "typeTitle": "Model",
-                "isVerified": false,
-                "isNew": false,
-                "isRepresented": false,
-                "isStaffPick": false,
-                "isBanned": false,
-                "profileUrl": "https://litmind.com/frankabagnale",
-                "reviewsUrl": "https://litmind.com/frankabagnale/reviews",
-                "sedCardUrl": "https://litmind.com/frankabagnale/composite",
-                "polaroidsUrl": "https://litmind.com/frankabagnale/polaroids",
-                "views": 21531,
-                "clicks": 2803,
-                "followers": 67,
-                "reviews": 0,
-                "stars": 0,
-                "artworks": 6,
-                "artworkViews": 49,
-                "artworkClicks": 7,
-                "slides": 0,
-                "publicLightboxes": 0,
-                "polaroids": 0,
-                "isRecentPolaroids": false,
-                "isSedCard": false,
-                "note": ""
-            }
+            "profile": <Profile entity>
         }
     ]
 }
 ```
 
+<table><thead><tr><th width="320">Name</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>joined</strong></mark></td><td>The date this candidate joined</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>accepted</strong></mark></td><td>The date you accepted this candidate </td><td></td></tr><tr><td><mark style="color:yellow;"><strong>folder</strong></mark></td><td>The folder in the candidates manager you moved this candidate into</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>profile</strong></mark></td><td>The candidate profile</td><td></td></tr></tbody></table>
