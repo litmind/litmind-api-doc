@@ -24,7 +24,7 @@ Obtain a list of profiles of any type, including models and photographers.
 
 #### Body
 
-<table><thead><tr><th width="174">Name</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>type</strong></mark></td><td><p>List only profiles of this type. One of the following values:</p><p><strong><code>photographers</code></strong> <strong><code>videographers</code></strong> <strong><code>retouchers</code></strong> <strong><code>models</code></strong> <strong><code>makeup</code></strong> <strong><code>hair</code></strong> <strong><code>stylist</code></strong> <strong><code>fashiondesigners</code></strong></p></td></tr></tbody></table>
+<table><thead><tr><th width="174">Name</th><th>Description</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>page</strong></mark></td><td>The results page to obtain. If not specified, the first page is obtained.</td></tr><tr><td><mark style="color:yellow;"><strong>type</strong></mark></td><td><p>List only profiles of this type. One of the following values:</p><p><strong><code>photographers</code></strong> <strong><code>videographers</code></strong> <strong><code>retouchers</code></strong> <strong><code>models</code></strong> <strong><code>makeup</code></strong> <strong><code>hair</code></strong> <strong><code>stylist</code></strong> <strong><code>fashiondesigners</code></strong></p></td></tr></tbody></table>
 
 When searching for models, the following additional parameters can be specified:
 
