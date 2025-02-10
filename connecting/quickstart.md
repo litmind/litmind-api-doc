@@ -4,9 +4,9 @@ icon: bullseye-arrow
 
 # Making a request
 
-API requests are done via HTTPS requests to <mark style="color:yellow;">**api.litmind.com/api/v1**</mark>, with the following header:
+API requests are done via HTTPS requests to <mark style="color:red;">**api.litmind.com/api/v1**</mark>, with the following header:
 
-* <mark style="color:yellow;">**X-Key**</mark> Your API key
+* <mark style="color:purple;">**X-Key**</mark> Your API key
 
 This is an example of a simple request:
 
@@ -33,8 +33,8 @@ The API will respond with a standard HTTP code indicating the status of the requ
 
 Most endpoints will additionally require you to provide a **session id** and a **user id** by sending the following additional headers along:
 
-* <mark style="color:yellow;">**X-SessionId**</mark> The session id
-* <mark style="color:yellow;">**X-UserId**</mark> The user id
+* <mark style="color:purple;">**X-SessionId**</mark> The session id
+* <mark style="color:purple;">**X-UserId**</mark> The user id
 
 To obtain your **X-SessionId** and **X-UserId,** call the [/session/login](../session/session/login.md) endpoint, which accepts your Litmind's account credentials, and answers back with this value&#x73;**.**
 

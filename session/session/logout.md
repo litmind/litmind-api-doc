@@ -20,11 +20,11 @@ Log out from your Litmind account.
 
 #### Headers
 
-<table><thead><tr><th width="186">Name</th><th>Value</th><th width="100" data-type="checkbox">Required</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>X-Key</strong></mark></td><td>Your API Key</td><td>true</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>X-SessionId</strong></mark></td><td>Your session id</td><td>true</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="186">Name</th><th>Value</th><th width="100" data-type="checkbox">Required</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:purple;"><strong>X-Key</strong></mark></td><td>Your API Key</td><td>true</td><td></td></tr><tr><td><mark style="color:purple;"><strong>X-SessionId</strong></mark></td><td>Your session id</td><td>true</td><td></td></tr></tbody></table>
 
 #### Body
 
-<table><thead><tr><th width="187">Name</th><th>Description</th><th width="100" data-type="checkbox">Required</th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>userId</strong></mark></td><td>The user id to be logged out</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th width="187">Name</th><th>Description</th><th width="100" data-type="checkbox">Required</th></tr></thead><tbody><tr><td><mark style="color:purple;"><strong>userId</strong></mark></td><td>The user id to be logged out</td><td>true</td></tr></tbody></table>
 
 #### Example
 
@@ -45,6 +45,6 @@ curl \
 }
 ```
 
-* <mark style="color:green;">**isSuccess**</mark> Whether the operation was performed successfully.
-* <mark style="color:green;">**errorDescription**</mark> If there was an error, a description.
+* <mark style="color:blue;">**isSuccess**</mark> Whether the operation was performed successfully.
+* <mark style="color:blue;">**errorDescription**</mark> If there was an error, a description.
 
