@@ -13,6 +13,11 @@
   * [Logout](session/session/logout.md)
   * [List](session/session/list.md)
 
+## Browse
+
+* [Profiles](browse/profiles/README.md)
+  * [Browse](browse/profiles/browse.md)
+
 ## Account
 
 * [Noticeboard](account/noticeboard/README.md)
@@ -22,11 +27,6 @@
   * [List](account/lightboxes/list.md)
 * [Events](account/events/README.md)
   * [Pending events](account/events/pending-events.md)
-
-## Browse
-
-* [Profiles](browse/profiles/README.md)
-  * [Browse](browse/profiles/browse.md)
 
 ## Common entities
 
