@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 # Making a request
 
-API requests are done via HTTPS requests to <mark style="color:red;">**api.litmind.com/api/v1**</mark>, with the following header:
+API requests are done via HTTPS requests to <mark style="color:red;">**litmind.com/api/v1**</mark>, with the following header:
 
 * <mark style="color:purple;">**X-Key**</mark> Your API key
 
