@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Browse
 
 <mark style="color:red;">**GET**</mark> `/profiles/browse`
@@ -56,7 +42,7 @@ curl \
     -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ' \
     -H 'X-SessionId: 313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588' \
     -H 'X-UserId: 138829'
-    -d 'status=accepted&ageMin=22&eyesColor=black,brown,lightBrown'
+    -d 'ageMin=22&eyesColor=black,brown,lightBrown'
 ```
 
 #### Response
