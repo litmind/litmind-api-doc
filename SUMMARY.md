@@ -16,21 +16,24 @@
 ## Browse
 
 * [Profiles](browse/profiles/README.md)
-  * [Browse](browse/profiles/browse.md)
+  * [Profiles browse](browse/profiles/profiles-browse.md)
 
 ## Account
 
 * [Noticeboard](account/noticeboard/README.md)
-  * [List](account/noticeboard/postings.md)
-  * [Candidates](account/noticeboard/candidates.md)
+  * [Noticeboard list](account/noticeboard/noticeboard-list.md)
+  * [Noticeboard candidates](account/noticeboard/noticeboard-candidates.md)
 * [Lightboxes](account/lightboxes/README.md)
-  * [List](account/lightboxes/list.md)
-  * [Contents](account/lightboxes/contents.md)
+  * [Lightboxes list](account/lightboxes/lightboxes-list.md)
+  * [Lightboxes contents](account/lightboxes/lightboxes-contents.md)
 * [Events](account/events/README.md)
   * [Pending events](account/events/pending-events.md)
 
-## Common entities
+## Entities
 
-* [Profile](common-entities/profile.md)
-* [Noticeboard posting](common-entities/noticeboard-posting.md)
-* [Lightbox](common-entities/lightbox.md)
+* [Profile](entities/profile.md)
+* [Candidate](entities/candidate.md)
+* [NoticeboardPosting](entities/noticeboardposting.md)
+* [Lightbox](entities/lightbox.md)
+* [LightboxItem](entities/lightboxitem.md)
+* [Artwork](entities/artwork.md)

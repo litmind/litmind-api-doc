@@ -1,18 +1,4 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
-# List
+# Lightboxes list
 
 <mark style="color:red;">**GET**</mark> `/account/lightboxes/list`
 
@@ -43,3 +29,6 @@ curl \
 }
 ```
 
+{% hint style="info" %}
+See the [Lightbox](../../entities/lightbox.md) entity
+{% endhint %}

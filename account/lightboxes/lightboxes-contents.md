@@ -1,4 +1,4 @@
-# Contents
+# Lightboxes contents
 
 <mark style="color:red;">**GET**</mark> `/account/lightboxes/`<mark style="color:yellow;">**`{lightboxId}`**</mark>`/contents`
 
@@ -36,14 +36,11 @@ curl \
         "entitiesThisPage": 10
     },
     "lightboxItems": [
-        {
-            "entity": "LightboxItem",
-            "id": 388392,
-            "note": "Has a small tatoo on its left leg",
-            "item": <Profile entity or Artwork entity>
-        }
+        <LightboxItem entities>
     ]
 }
 ```
 
-<table><thead><tr><th width="320">Name</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>note</strong></mark></td><td>A private note you entered for this item on this lightbox.</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>item</strong></mark></td><td>Depending on the type of item that was added to the lightbox, a Profile entity or an Artwork entity.</td><td></td></tr></tbody></table>
+{% hint style="info" %}
+See the [LightboxItem](../../entities/lightboxitem.md) entity
+{% endhint %}

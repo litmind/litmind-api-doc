@@ -1,4 +1,4 @@
-# Candidates
+# Noticeboard candidates
 
 <mark style="color:red;">**GET**</mark> `/account/noticeboard/`<mark style="color:yellow;">**`{noticeboardPostingId}`**</mark>`/candidates`
 
@@ -49,24 +49,16 @@ curl \
     "paging": {
         "page": 1,
         "entitiesPerPage": 10,
-        "totalPages": 1,
-        "totalEntities": 1,
-        "entitiesThisPage": 1
+        "totalPages": 2,
+        "totalEntities": 18,
+        "entitiesThisPage": 10
     },
     "candidates": [
-        {
-            "entity": "Candidate",
-            "id": 8492881,
-            "joined": "2025-01-20T08:56:48+00:00",
-            "accepted": "2025-01-20T17:03:37+00:00",
-            "folder": {
-                "id": 4039,
-                "name": "Liked by the client"
-            },
-            "profile": <Profile entity>
-        }
+        <Candidate entities>
     ]
 }
 ```
 
-<table><thead><tr><th width="320">Name</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:yellow;"><strong>joined</strong></mark></td><td>The date this candidate joined</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>accepted</strong></mark></td><td>The date you accepted this candidate </td><td></td></tr><tr><td><mark style="color:yellow;"><strong>folder</strong></mark></td><td>The folder in the candidates manager you moved this candidate into</td><td></td></tr><tr><td><mark style="color:yellow;"><strong>profile</strong></mark></td><td>The candidate profile</td><td></td></tr></tbody></table>
+{% hint style="info" %}
+See the [Candidate](../../entities/candidate.md) entity
+{% endhint %}

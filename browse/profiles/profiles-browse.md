@@ -1,4 +1,4 @@
-# Browse
+# Profiles browse
 
 <mark style="color:red;">**GET**</mark> `/profiles/browse`
 
@@ -57,18 +57,11 @@ curl \
         "entitiesThisPage": 10
     },
     "profiles": [
-        {
-            "entity": "Profile",
-            "id": 8492881,
-            "joined": "2025-01-20T08:56:48+00:00",
-            "accepted": "2025-01-20T17:03:37+00:00",
-            "folder": {
-                "id": 4039,
-                "name": "Liked by the client"
-            },
-            "profile": &#x3C;Profile entity>
-        }
+        &#x3C;Profile entities>
     ]
 }
 </code></pre>
 
+{% hint style="info" %}
+See the [Profile](../../entities/profile.md) entity
+{% endhint %}

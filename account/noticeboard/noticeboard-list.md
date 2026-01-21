@@ -1,18 +1,4 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
-# List
+# Noticeboard list
 
 <mark style="color:red;">**GET**</mark> `/account/noticeboard/list`
 
@@ -47,8 +33,11 @@ curl \
 {
     "entity": "NoticeboardPostings",
     "noticeboardPostings": [
-        // Noticeboard posting entities
+        <NoticeboardPosting entities>
     ]
 }
 ```
 
+{% hint style="info" %}
+See the [NoticeboardPosting](../../entities/noticeboardposting.md) entity
+{% endhint %}
