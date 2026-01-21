@@ -4,7 +4,7 @@ icon: arrow-right-to-arc
 
 # How sessions work
 
-All useful Litmind endpoints require you to create a session and send the <mark style="color:purple;">**X-SessionId**</mark> and <mark style="color:purple;">**X-UserId**</mark> additional headers along with your requests.
+All useful Litmind endpoints require you to create a session and pass along the <mark style="color:purple;">**X-SessionId**</mark> and <mark style="color:purple;">**X-UserId**</mark> headers with your requests.
 
 {% hint style="info" %}
 You create a session by making a login request to the API passing along Litmind username and password, the same credentials you use to login manually on the Litmind website.
