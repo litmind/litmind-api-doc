@@ -37,6 +37,6 @@ curl \
 
 * <mark style="color:blue;">**isSuccess**</mark> Whether the login was performed successfully.
 * <mark style="color:blue;">**errorDescription**</mark> If there was an error while logging in, a description.
-* <mark style="color:blue;">**sessionId**</mark> Your session id, to be passed from now on as the value for the <mark style="color:purple;">**X-SessionId**</mark> header when [making requests that require it](../../connecting/quickstart.md).
-* <mark style="color:blue;">**profile.id**</mark> Your user id, to be passed from now on as the value for the <mark style="color:purple;">**X-UserId**</mark> header when [making requests that require it](../../connecting/quickstart.md).
+* <mark style="color:blue;">**sessionId**</mark> Your session id, to be passed from now on as the value for the <mark style="color:purple;">**X-SessionId**</mark> header when [making requests that require it](../../getting-started/quickstart.md).
+* <mark style="color:blue;">**profile.id**</mark> Your user id, to be passed from now on as the value for the <mark style="color:purple;">**X-UserId**</mark> header when [making requests that require it](../../getting-started/quickstart.md).
 

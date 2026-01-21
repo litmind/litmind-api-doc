@@ -2,9 +2,9 @@
 
 * [Litmind API documentation](README.md)
 
-## Connecting
+## Getting started
 
-* [Making a request](connecting/quickstart.md)
+* [Making a request](getting-started/quickstart.md)
 
 ## Session
 
