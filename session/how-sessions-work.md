@@ -26,10 +26,10 @@ You should get a response containing your <mark style="color:purple;">**X-Sessio
     "entity": "Login",
     "isSuccess": true,
     "errorDescription": null,
-    "sessionId": "313599f21242986088a1815ebe2a588", ⬅
+    "sessionId": "313599f21242986088a1815ebe2a588", ⬅ X-SessionId
     "profile": {
         ...
-        "id": 138829 ⬅
+        "id": 138829 ⬅ X-UserId
         ...
     }
 }
