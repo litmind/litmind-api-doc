@@ -37,3 +37,7 @@
 * [Lightbox](entities/lightbox.md)
 * [LightboxItem](entities/lightboxitem.md)
 * [Artwork](entities/artwork.md)
+
+## Additional resources
+
+* [Changelog](additional-resources/changelog.md)
