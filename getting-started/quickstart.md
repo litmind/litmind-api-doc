@@ -31,20 +31,6 @@ The API will respond with a standard HTTP code indicating the status of the requ
 
 ## Requesting user endpoints
 
-Most endpoints will additionally require you to provide a **session id** and a **user id** by sending the following additional headers along:
+Simple endpoints like the example above are not very helpful. The important endpoints that allow you to operate on Litmind using the API will additionally require you to create a session and send the <mark style="color:purple;">**X-SessionId**</mark> and <mark style="color:purple;">**X-UserId**</mark> additional headers along with your requests.
 
-* <mark style="color:purple;">**X-SessionId**</mark> The session id
-* <mark style="color:purple;">**X-UserId**</mark> The user id
-
-To obtain your **X-SessionId** and **X-UserId,** call the [/session/login](../session/session/login.md) endpoint, which accepts your Litmind's account credentials, and answers back with this value&#x73;**.**
-
-Here's an example of a request to an endpoint that requires a logged account:
-
-```bash
-curl \
-    -G https://litmind.com/api/v1/account/status/notifications \
-    -H 'X-Key: bfRCu5GAEP9eMZ7fS6yvPwGxB9Nu7FzUfdnasrCkKkHAyCBZ' \
-    -H 'X-SessionId: 313599f212429860887ef23ea326cc863a9186eb1a43a8f1739a1815ebe2a588' \
-    -H 'X-UserId: 138829'
-```
-
+Advance to the next section to learn how to create a session and start requesting an endpoint:

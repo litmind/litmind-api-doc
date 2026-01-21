@@ -8,10 +8,10 @@
 
 ## Session
 
-* [Session](session/session/README.md)
-  * [Login](session/session/login.md)
-  * [Logout](session/session/logout.md)
-  * [List](session/session/list.md)
+* [How sessions work](session/how-sessions-work.md)
+* [Login](session/login.md)
+* [Logout](session/logout.md)
+* [List](session/list.md)
 
 ## Browse
 
