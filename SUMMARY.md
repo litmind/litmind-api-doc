@@ -25,6 +25,7 @@
   * [Candidates](account/noticeboard/candidates.md)
 * [Lightboxes](account/lightboxes/README.md)
   * [List](account/lightboxes/list.md)
+  * [Contents](account/lightboxes/contents.md)
 * [Events](account/events/README.md)
   * [Pending events](account/events/pending-events.md)
 
