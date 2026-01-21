@@ -63,6 +63,6 @@ When logging with multiple users, call the [/session/list](list.md) endpoint to 
 
 ## Sessions can expire
 
-For security purposes, session can expire over time. When your session expires, you'll obtain a **40x** HTTP error.
+For security reasons, sessions can expire over time. When your session expires, you'll obtain a **40x** HTTP error.
 
 When this happens, your system should create a new session by logging in again and storing the new <mark style="color:purple;">**X-SessionId**</mark> and <mark style="color:purple;">**X-UserId**</mark> values.
