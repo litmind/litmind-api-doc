@@ -7,7 +7,7 @@ icon: arrow-right-to-arc
 All useful Litmind endpoints require you to create a session and pass along the <mark style="color:purple;">**X-SessionId**</mark> and <mark style="color:purple;">**X-UserId**</mark> headers with your requests.
 
 {% hint style="info" %}
-You create a session by making a login request to the API passing along Litmind username and password, the same credentials you use to login manually on the Litmind website.
+You create a session by making a login request to the API with your Litmind username and password, the same credentials you use to login manually on the Litmind website.
 {% endhint %}
 
 To obtain your <mark style="color:purple;">**X-SessionId**</mark> and <mark style="color:purple;">**X-UserId**</mark>**,** call the [/session/login](login.md) endpoint, which accepts your Litmind's account credentials, and answers back with this values, like this:
