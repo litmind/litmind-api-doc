@@ -32,6 +32,7 @@
 ## Entities
 
 * [Profile](entities/profile.md)
+* [Polaroid](entities/polaroid.md)
 * [Candidate](entities/candidate.md)
 * [NoticeboardPosting](entities/noticeboardposting.md)
 * [Lightbox](entities/lightbox.md)
